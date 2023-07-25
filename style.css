@@ -1,0 +1,251 @@
+
+@font-face{
+    font-family: 'Rajdhani';
+    src: url(./Assets/police/Rajdhani-Medium.ttf);
+}
+@font-face{
+    font-family:'SpaceGrotesk-Regular';
+    src: url(./Assets/police/SpaceGrotesk-Regular.ttf);
+
+}
+@font-face{
+    font-family:'SpaceGrotesk-Bold';
+    src: url(./Assets/police/SpaceGrotesk-Bold.ttf);
+
+}
+:root{
+    --yellow-color:#FFFF00;
+    --yellow-light:#f8f184;
+    --blue-color:#19587d33;
+    --white-color:#ffffff91;
+    --gradient-white:#6b53227a;
+    --gradient-red:#890009bd;
+    --black-color:#000;
+    
+
+
+}
+body{
+    background-color: black ;
+    color: #FFFFFF;
+}
+header{
+    background: url(./Assets/Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: var(--blue-color);
+    background-size: cover;
+}
+.tête{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logohome{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Home{
+    margin-right:150px;
+    margin-top:120px; 
+}
+.P1{
+    margin-left:400px;
+    margin-top:190px;
+}
+.raj{
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    font-size: 36px;
+}
+.bat1{
+    font-family: 'SpaceGrotesk-Regular';
+    font-weight:300;
+    font-size: 18px;
+}
+.htwo{
+    font-family: 'SpaceGrotesk-Bold';
+    font-weight:200;
+    font-size: 22px;
+}
+
+
+.centre{
+    margin-left:90px;
+    margin-top:1px;
+    font-family: 'SpaceGrotesk-Regular';
+    font-weight:300;
+    font-size:18px;
+
+}
+.T1{
+    margin-left:607px;
+}
+.clic1{
+    display: flex;
+    justify-content: space-around;
+}
+.VOIR{
+    color: #FFFFFF;
+    margin-left:370px;
+    margin-top: 30px;
+    background: linear-gradient(
+        80deg,var(--white-color),var(--gradient-white),var(--gradient-red) 
+      );
+      padding: 20px 30px;
+      box-shadow: var(--black-color) 15px 15px 40px;
+}
+.adve{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 470px;
+    margin-top: 30px ;
+    background: linear-gradient(
+        80deg, var(--white-color), var(--gradient-white),var(--gradient-red)  
+    );
+    padding: 10px 20px;
+    box-shadow: var(--black-color) 15px 15px 40px;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1180px;
+    margin-top: -240px;
+}
+.icon .social{
+    margin-left:40px;
+    margin-top: 35px;
+}
+.flèche_down{
+    margin-left: 570px;
+}
+.CINEMA{
+    margin-left:200px;
+    margin-top:100px;
+}
+.photos3{
+    display:flex;
+    justify-content: space-around;
+    margin-left:157px;
+    margin-top:70px;
+}
+.pn1{
+    display: flex;
+    justify-content:center;
+}
+.ppn1{
+    display: flex;
+    justify-content: center;
+}
+.multi2{
+    display: flex;
+    justify-content: center;
+}
+.ba1{
+    width:12.2%;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.but1{
+    margin-left:200px;
+}
+.Co1{
+    padding:10px;
+    background-color:#c4c4c469;
+    margin-bottom:20px ;
+    border-radius: 0 10px 10px 0;
+    font-size: 13px;
+}
+.color:hover{ 
+    color: yellow;
+}
+.bat2{
+    display: flex;
+    justify-content: center;
+    padding:40px 150px;
+}
+.sec{
+    background-color: #c4c4c452;
+    padding: 40px 60px;
+}
+.contact{
+
+    margin-top: 100px;
+    margin-left:270px;
+}
+#prenons{
+    display: flex;
+    margin-left:140px;
+    margin-top:-50px;
+}
+.email{
+    color: #c4c4c491;
+    padding: 5px 5px;
+}
+.a{
+    display: flex;
+    margin-left:190px;
+}
+.CONFI{
+   margin-left:185px;
+   background: linear-gradient(
+    80deg,#eddebf5d,#890008 
+  );
+  padding: 20px 60px;
+  box-shadow: var(--black-color 5px 5px 40px);
+}
+.guillement{
+    margin-left:225px;
+    margin-top: 120px;
+    
+}
+.paraf{
+    display: flex;
+    margin-left:400px;
+    margin-top: 30px;
+}
+.suite{
+    display: flex;
+    margin-left:83px;
+}
+.paraf2{
+    display: flex;
+    margin-top: 20px;
+    margin-left:470px;
+    font-size: 15px;
+}
+.suite2{
+    display: flex;
+    margin-left:-220px;
+    font-size: 15px;
+}
+.guillement2{
+    margin-left:850px;
+    margin-top:-10px;
+}
+.WB{
+    margin-top: 150px;
+    margin-left: 320px;
+}
+.paraf3{
+    display: flex;
+    margin-left:350px;
+    margin-top:-25px;
+    font-size: 12px;
+}
+.saynaxdc{
+    display: flex;
+    flex-direction:row;
+    margin-left:450px ;
+}
+
+.imgf{
+    margin-left:35px;
+    margin-bottom: -25px;
+}
